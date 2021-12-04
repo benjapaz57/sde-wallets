@@ -15,6 +15,9 @@ header h1 {
   color: #803349;
   padding: 10px;
 }
+header h1:hover {
+  text-transform: ;
+}
 
 .models {
   display: flex;

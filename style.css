@@ -9,16 +9,16 @@ body {
 header {
   text-align: center;
 }
-header h1 {
+
+nav h1 {
   font-size: 3rem;
   text-decoration: underline;
   color: #803349;
   padding: 10px;
 }
-header h1:hover {
-  text-transform: ;
+nav h1:hover {
+  text-decoration: none;
 }
-
 .models {
   display: flex;
   flex-direction: row;
@@ -28,5 +28,6 @@ header h1:hover {
 @media (max-width: 480px) {
   .models {
     flex-direction: column;
+    justify-content: center;
   }
 }

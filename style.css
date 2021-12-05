@@ -9,7 +9,9 @@ body {
 header {
   text-align: center;
 }
-
+header h3 {
+  font-size: 1.5rem;
+}
 nav h1 {
   font-size: 3rem;
   text-decoration: underline;
@@ -22,6 +24,14 @@ nav h1:hover {
 .models {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+.colorPrimary {
+  color: #803349;
+  text-decoration: underline;
+}
+.dCenter {
+  display: flex;
   justify-content: center;
 }
 

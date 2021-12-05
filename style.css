@@ -3,14 +3,10 @@
   padding: 0px;
   font-family: "M PLUS 1 Code", sans-serif;
 }
+
+/* BODY */
 body {
   background-image: url(img/background.png);
-}
-header {
-  text-align: center;
-}
-header h3 {
-  font-size: 1.5rem;
 }
 nav h1 {
   font-size: 3rem;
@@ -21,6 +17,14 @@ nav h1 {
 nav h1:hover {
   text-decoration: none;
 }
+header {
+  text-align: center;
+}
+header h3 {
+  font-size: 1.5rem;
+}
+
+/* CLASS */
 .models {
   display: flex;
   flex-direction: row;
@@ -35,6 +39,7 @@ nav h1:hover {
   justify-content: center;
 }
 
+/* MEDIA QUERYS */
 @media (max-width: 480px) {
   .models {
     flex-direction: column;
